@@ -6,8 +6,8 @@ import streamlit as st
 car_data = pd.read_csv('vehicles_us.csv') # lendo os dados
 
 # Header
-st.header('This is a header with a divider', divider='rainbow')
-st.header('_Streamlit_ is :blue[cool] :sunglasses:')
+st.header('Análise de um conjunto de dados de anúncios de vendas de carros ', divider='rainbow')
+st.header('Gáficos :chart_with_upwards_trend:')
 
 # Botões
 # Botão de histograma
